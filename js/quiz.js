@@ -127,7 +127,7 @@ $(document).ready(function(){
                 console.log("nothing selected")
                 $(".error").addClass("display")
                 }
-            else if (index == 3){
+            else if (index == 6){
                 console.log("quiz finished")
                 $(slide).removeClass('current')
                 largest = Math.max(...userStats)
@@ -305,6 +305,7 @@ $(document).ready(function(){
                     userStats[9] += 1;
                     console.log(userStats)
                 }
+            });
                 $("#4 button").click(function(){
                     choiceMade = true
                     console.log("question4 selection made")
@@ -312,72 +313,102 @@ $(document).ready(function(){
                     console.log(num)
                     console.log(userStats)
                     console.log(index)
-                    if (num == 'choice1'){ //[0]+=0 [1]+=0 [2]+=0 [3]+=0 [4]+=0 [5]+=0 [6]+=2 [7]+=2 [8]+=0 [9]+=0
-                        userStats[0] += 0; 
-                        userStats[1] += 0;
-                        userStats[2] += 0;
-                        userStats[3] += 0;
-                        userStats[4] += 0;
-                        userStats[5] += 0;
-                        userStats[6] += 2;
-                        userStats[7] += 2;
-                        userStats[8] += 0;
-                        userStats[9] += 0;
-                        console.log(userStats)
-                    }
-                    if (num == "choice2"){ //[0]+=2 [1]+=0 [2]+=0 [3]+=0 [4]+=0 [5]+=2 [6]+=0 [7]+=0 [8]+=1 [9]+=0
+                    if (num == 'choice1'){
                         userStats[0] += 2;
-                        userStats[1] += 0;
-                        userStats[2] += 0;
-                        userStats[3] += 0;
-                        userStats[4] += 0;
-                        userStats[5] += 2;
-                        userStats[6] += 0;
-                        userStats[7] += 0;
-                        userStats[8] += 1;
-                        userStats[9] += 0;
                         console.log(userStats)
                     }
-                    if (num == "choice3"){ //[0]+=1 [1]+=0 [2]+=0 [3]+=2 [4]+=2 [5]+=1 [6]+=1 [7]+=1 [8]+=0 [9]+=0
-                        userStats[0] += 1;
-                        userStats[1] += 0;
-                        userStats[2] += 0;
+                    if (num == "choice2"){
+                        userStats[2] += 2;
+                        console.log(userStats)
+                    }
+                    if (num == "choice3"){
                         userStats[3] += 2;
+                        console.log(userStats)
+                    }
+                
+                    if (num == "choice4"){
                         userStats[4] += 2;
-                        userStats[5] += 1;
-                        userStats[6] += 1;
-                        userStats[7] += 1;
-                        userStats[8] += 0;
-                        userStats[9] += 0;
                         console.log(userStats)
                     }
-                    if (num == "choice4"){//[0]+=0 [1]+=2 [2]+=0 [3]+=1 [4]+=0 [5]+=0 [6]+=0 [7]+=0 [8]+=0 [9]+=2 BS 2, SFE 2, Klara 1
-                        userStats[0] += 0;
-                        userStats[1] += 2;
-                        userStats[2] += 0;
-                        userStats[3] += 1;
-                        userStats[4] += 0;
-                        userStats[5] += 0;
-                        userStats[6] += 0;
-                        userStats[7] += 0;
-                        userStats[8] += 0;
-                        userStats[9] += 2;
-                        console.log(userStats)
-                    }
-                    if (num == "choice5"){ //[0]+=0 [1]+=0 [2]+=3 [3]+=0 [4]+=0 [5]+=0 [6]+=0 [7]+=0 [8]+=2 [9]+=1
-                        userStats[0] += 0;
-                        userStats[1] += 0;
-                        userStats[2] += 3;
-                        userStats[3] += 0;
-                        userStats[4] += 0;
-                        userStats[5] += 0;
-                        userStats[6] += 0;
-                        userStats[7] += 0;
-                        userStats[8] += 2;
-                        userStats[9] += 1;
+                    if (num == "choice5"){
+                        userStats[5] += 2;
                         console.log(userStats)
                     }
             });
+                    $("#5 button").click(function(){
+                        choiceMade = true
+                        console.log("question5 selection made")
+                        var num = this.classList[0]
+                        console.log(num)
+                        console.log(userStats)
+                        console.log(index)
+                        if (num == 'choice1'){
+                            userStats[6] += 2;
+                            console.log(userStats)
+                        }
+                        if (num == "choice2"){
+                            userStats[7] += 2;
+                            console.log(userStats)
+                        }
+                        if (num == "choice3"){
+                            userStats[9] += 2;
+                            console.log(userStats)
+                        }
+                        if (num == "choice4"){
+                            userStats[8] += 2;
+                            console.log(userStats)
+                        }
+                        if (num == "choice5"){
+                            userStats[1] += 2;
+                            console.log(userStats)
+                        }
+                    })
+                        $("#6 button").click(function(){
+                            choiceMade = true
+                            console.log("question6 selection made")
+                            var num = this.classList[0]
+                            console.log(num)
+                            console.log(userStats)
+                            console.log(index)
+                            if (num == 'choice1'){
+                                userStats[6] += 2;
+                                userStats[7] += 2;
+                                console.log(userStats)
+                            }
+                            if (num == "choice2"){
+                                userStats[0] += 2;
+                                userStats[5] += 2;
+                                userStats[8] += 1;
+                                console.log(userStats)
+                            }
+                            if (num == "choice3"){
+                                userStats[0] += 2;
+                                userStats[1] += 1;
+                                userStats[2] += 1;
+                                userStats[3] += 2;
+                                userStats[4] += 1;
+                                userStats[5] += 2;
+                                userStats[6] += 1;
+                                userStats[7] += 1;
+                                userStats[8] += 2;
+                                userStats[9] += 1;
+                                console.log(userStats)
+                            }
+                            if (num == "choice4"){
+                                userStats[0] += 1;
+                                userStats[3] += 2;
+                                userStats[4] += 2;
+                                userStats[5] += 1;
+                                userStats[6] += 1;
+                                userStats[7] += 1;
+                                console.log(userStats)
+                            }
+                            if (num == "choice5"){
+                                userStats[0] += 1;
+                                userStats[3] += 1;
+                                userStats[9] += 2;
+                                console.log(userStats)
+                            }
         });
         $(".quizClose").click(function(){
             $(".slide").removeClass('current')
