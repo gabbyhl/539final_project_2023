@@ -290,12 +290,12 @@ button:hover{
     text-align: center;
 }
 
-button.restart{
+/* button.restart{
     display: none;
 }
 button.restart.display{
     display: block;
-}
+} */
 
 @media screen and (min-width:600px) {
 

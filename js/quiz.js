@@ -139,7 +139,7 @@ $(document).ready(function(){
                 $("h1").html("Your recommendation:")
                 console.log(final)
                 $(".questions").hide()
-                $(".restart").addClass("display")
+                // $(".restart").addClass("display")
                 console.log("quiz closed")
                 // $(".restart").click(function(){
                 //     $(".quizClose").click()
@@ -411,6 +411,7 @@ $(document).ready(function(){
                             }
         });
         $(".quizClose").click(function(){
+            console.log("close quiz")
             $(".slide").removeClass('current')
             $(".quizContainer").hide()
             $(".results").removeClass("display")
