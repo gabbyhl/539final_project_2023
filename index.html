@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Secular+One&display=swap" rel="stylesheet"> 
+
+  <title>Gabby's 2022 Reads</title>
+
+  </head>
+
+  <body>
+    <a href= "#top" class= "skip">Skip to Main Content</a>
+    <header>
+    <h1>Gabby's 2022 Reads</h1> <a class = toQuiz href= "/quiz.html">Get a recommendation</a>
+    <button type= "button" class="filter">Filters</button>
+    <ul class="controls">
+      <li><button type="button" class="control" data-filter="all">All</button></li>
+      <li><button type="button" class="control" data-filter=".short">Short Books</button></li>
+      <li><button type="button" class="control" data-filter=".long">Long Books</button></li>
+      <li><button type="button" class="control" data-filter=".historical">Historical</button></li>
+      <li><button type="button" class="control" data-filter=".emotional">Emotional</button></li>
+      <li><button type="button" class="control" data-filter=".classics">Cannon Classics</button></li>
+      <li><button type="button" class="control" data-filter=".fantasy">Fantasy and Fabulism</button></li>
+      <li><button type="button" class="control" data-filter=".memoir">Memoir</button></li>
+      <li><button type="button" class="control" data-filter=".essays">Essays</button></li>
+      <li><button type="button" class="control" data-filter=".comics">Comics</button></li>
+      <li><button type="button" class="control" data-filter=".myths">Religion, Myths and folklore</button></li>
+      <li><button type="button" class="control" data-filter=".sci-fi">Sci-fi</button></li>
+      <li><button type="button" class="control" data-sort="default:asc">Asc</button></li>
+      <li><button type="button" class="control" data-sort="default:desc">Desc</button></li>
+    </ul>
+    </div>
+    </header>
+    <main class="top">
+      <div class="containerBooks">
+        <div class = "book mix long fantasy historical emotional" id="book_01">
+            <img src= "images/books/She Who Became the Sun.jpg" alt="book cover with illustrated forest"><br>
+            <h2 class="title">She Who Became the Sun</h2><br>
+            <h3 class="author">Shelly Parker-Chan</h3><br>
+            <button class="open" id="01">See more</button><br>
+            <div class="popup" id="popup_01">
+              <button class="close" id ="close_01">Close</button>
+              <p class="description">The marketing for this book compares it to Mulan but this book has way more gender. Also, political machinations, Chinese history, and ruthless characters.</p><br>
+            </div>
+          </div>
+       <div class = "book mix fantasy myths" id="book_02">
+          <img src= "images/books/Snake.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+          <h2 class="title">A Snake Falls to Earth</h2><br>
+          <h3 class ="author">Darcy Little Badger</h3><br>
+          <button class="open" id="02">See more</button><br>
+          <div class="popup" id = "popup_02"><button class=close id ="close_02">Close</button><br>
+          <p class="description">I love how Darcy Little Badger mixes folklore into a contemporary setting.</p><br>
+          </div>
+        </div>
+      <div class="book mix short classics historical" id="book_03">
+        <img src= "images/books/Recitatif.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">Recitatif</h2><br>
+        <h3 class ="author">Toni Morrison</h3><br>
+        <button class="open" id="03">See more</button><br>
+        <div class="popup" id="popup_03"><button class="close" id="close_03">Close</button><br>
+        <p class="description"> Of course Toni Morrison's story is highly conceptual and brilliant. </p><br>
+        </div>
+      </div>
+      <div class="book mix sci-fi" id="book_04">
+        <img src= "images/books/Klara and the Sun.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">Klara and the Sun</h2><br>
+        <h3 class ="author">Kazuo Ishiguro</h3><br>
+        <button class="open" id="04">See more</button><br>
+        <div class="popup" id="popup_04"><button class="close" id="close_04">Close</button><br>
+        <p class="description">Great to read while waiting for the sun to come out and cure your seasonal depression.</p><br>
+      </div>
+      </div>
+      <div class="book mix memoir essays" id="book_05">
+        <img src= "images/books/Schizophrenias.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">The Collected Schizophrenias</h2><br>
+        <h3 class ="author">Esmé Weijun Wang</h3>`<br>
+        <button class="open" id="05">See more</button><br>
+        <div class="popup" id="popup_05"><button class="close" id="close_05">Close</button><br>
+        <p class="description">Interesting personal essays with lots insights into how our society views severe mental illness.</p><br>
+      </div>
+      </div>
+      <div class="book mix sci-fi fantasy emotional" id="book_06">
+        <img src= "images/books/Light.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">Light from Uncommon Stars</h2><br>
+        <h3 class ="author">Ryka Aoki</h3><br>
+        <button class="open" id="06">See more</button><br>
+        <div class="popup" id="popup_06"><button class="close" id="close_06">Close</button><br>
+        <p class="description">Sometimes sad but also wholesome mashup of sci-fi and fantasy with violins, Faustian barigns, and aliens.</p><br>
+        </div>
+      </div>
+      <div class="book mix emotional" id="book_07">
+        <img src= "images/books/Fool.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">You Made a Fool of Death with your Beauty</h2><br>
+        <h3 class ="author">Akwaeke Emezi</h3><br>
+        <button class="open" id="07">See more</button><br>
+        <div class="popup" id="popup_07"><button class="close" id="close_07">Close</button><br>
+        <p class="description">This book's plot and characters are...messy. But Emezi is such as good writer that I loved the ride. </p><br>
+        </div>
+      </div>
+      <div class="book mix fantasy myths" id="book_08">
+        <img src= "images/books/Never Look Back.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">Never Look Back</h2><br>
+        <h3 class ="author">Lilliam Rivera</h3><br>
+        <button class="open" id="08">See more</button><br>
+        <div class="popup" id="popup_08"><button class="close" id="close_08">Close</button><br>
+        <p class="description">This is a description of the book</p><br>
+        </div>
+      </div>
+      <div class="book mix long fantasy historical emotional" id="book_09">
+        <img src= "images/books/Babel.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">Babel</h2><br>
+        <h3 class ="author">R.F Kuang</h3><br>
+        <button class="open" id="09">See more</button><br>
+        <div class="popup" id="popup_09"><button class="close" id="close_09">Close</button><br>
+        <p class="description">The perfect histroical fantasy for people who love footnotes and hate the British Empire.</p><br>
+        </div>
+      </div>
+      <div class="book mix memoir essays" id="book_10">
+        <img src= "images/books/Braiding Sweetgrass.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">Braiding Sweetgrass</h2><br>
+        <h3 class ="author">Robin Wall Kimmerer </h3><br>
+        <button class="open" id="10">See more</button><br>
+        <div class="popup" id="popup_10"><button class="close" id="close_10">Close</button><br>
+        <p class="description">This book really makes you want to be in a forest.</p><br>
+        </div>
+      </div>
+      <div class="book mix short memoir comics" id="book_11">
+        <img src= "images/51fZL6koXyL.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">I was their American Dream</h2><br>
+        <h3 class ="author">Jordan Ifueko</h3><br>
+        <button class="open" id="11">See more</button><br>
+        <div class="popup" id="popup_11"><button class="close" id="close_11">Close</button><br>
+        <p class="description">This is a description of the book</p><br>
+        </div>
+      </div>
+      <div class="book mix classics historical emotional" id="book_12">
+        <img src= "images/51fZL6koXyL.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">No No Boy</h2><br>
+        <h3 class ="author">Jordan Ifueko</h3><br>
+        <button class="open" id="12">See more</button><br>
+        <div class="popup" id="popup_12"><button class="close" id="close_12">Close</button><br>
+        <p class="description">This is a description of the book</p><br>
+        </div>
+      </div>
+      <div class="book mix classics historical emotional" id="book_13">
+        <img src= "images/51fZL6koXyL.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">Giovanni's Room</h2><br>
+        <h3 class ="author">Jordan Ifueko</h3><br>
+        <button class="open" id="13">See more</button><br>
+        <div class="popup" id="popup_13"><button class="close" id="close_13">Close</button><br>
+        <p class="description">This is a description of the book</p><br>
+        </div>
+      </div>
+      <div class="book mix short fantasy comics emotional" id="book_14">
+        <img src= "images/51fZL6koXyL.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+        <h2 class="title">The Many Deaths of Laila Starr</h2><br>
+        <h3 class ="author">Jordan Ifueko</h3><br>
+        <button class="open" id="14">See more</button><br>
+        <div class="popup" id="popup_14"><button class="close" id="close_14">Close</button><br>
+        <p class="description">This is a description of the book</p><br>
+        </div>
+    </div>
+    <div class="book mix historical emotional" id="book_15">
+      <img src= "images/51fZL6koXyL.jpg" alt="book cover with young Black woman, blue and purple background"><br>
+      <h2 class="title">Dead Dead Girls</h2><br>
+      <h3 class ="author">Jordan Ifueko</h3><br>
+      <button class="open" id="15">See more</button><br>
+      <div class="popup" id="popup_15"><button class="close" id="close_15">Close</button><br>
+      <p class="description">This is a description of the book</p><br>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src= "mix_dist/mixitup.js"></script>
+  <script>
+    var containerEl = document.querySelector('.containerBooks');
+    var mixer = mixitup(containerEl);
+  </script>
+  <script src= "js/popup.js"></script>
+  </body>

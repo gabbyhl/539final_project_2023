@@ -1,0 +1,79 @@
+<div class="book">
+            <img href= "images/81WTIPeYmdl.jpg" alt="book cover illustrated forest">
+            <h2 class="title">Drive Your Plow Over the Bones of the Dead</h2>
+            <h3 class="author">Olga Tokarczuk</h3>
+            <button class="open" id="1">See more</button>
+            <div class="popup" id="popup_1"><button class="close" id="1">Close</button>
+            <p class="description">This is a description of the book</p>
+            <p class="rating">3 stars</p></div>
+          </div>
+
+classes for books:
+short
+long
+historical (or historical inspired) setting
+canon classics
+fantasy & fabulism
+memoir
+sci-fi
+comics
+essays
+spicy
+emotional
+
+
+Book list:
+She Who Became the Sun //long fantasy fiction historical spicy emotional
+A Snake Falls to Earth //fantasy  
+Recitatif //short classics  historical
+Klara and the Sun //sci-fi 
+The Collected Schizophrenias // memoir essays
+Light From Uncommon Stars //sci-fi fantasy emotional
+You Made a Fool of Death with your Beauty //spicy emotional
+Never Look Back //fantasy
+Babel //long fantasy historical emotional
+Braiding Sweetgrass //memoir essays
+I Was Their American Dream //short memoir comics
+No No Boy //classics historical emotional
+Giovanni's Room //short classics historical emotional
+The Many Deaths of Laila Starr //short fantasy comics emotional
+Dead Dead Girls // historical emotional
+
+Quiz results list:
+She Who Became the Sun 0
+A Snake Falls to Earth 1 (Or substitue I was their American Dream or Dead Dead Girls)
+Recitatif 2
+Klara and the Sun 3
+The Collected Schizophrenias 4
+Light From Uncommon Stars 5
+You Made a Fool of Death with your Beauty 6
+Never Look Back 7
+Babel 8
+Braiding Sweetgrass 9
+
+Quiz questions:
+
+1. Fiction or nonfiction?
+
+2. Adult or YA?
+
+3. How do you feel about magic in books?
+   I hate it.                       //[0]+=0 [1]+=0 [2]+=2 [3]+=0 [4]+=2 [5]+=0 [6]+=2 [7]+=0 [8]+=0 [9]+=2
+   I love it.                       //[0]+=2 [1]+=2 [2]+=0 [3]+=2 [4]+=0 [5]+=2 [6]+=0 [7]+=2 [8]+=2 [9]+=0
+   I like it, but I prefer realism. //[0]+=2 [1]+=1 [2]+=1 [3]+=2 [4]+=1 [5]+=2 [6]+=1 [7]+=1 [8]+=2 [9]+=1
+   Sci-fi is better.                //[0]+=0 [1]+=0 [2]+=2 [3]+=0 [4]+=2 [5]+=0 [6]+=2 [7]+=0 [8]+=1 [9]+=2
+   I don't have a preference.       //[0]+=1 [1]+=1 [2]+=1 [3]+=1 [4]+=1 [5]+=1 [6]+=1 [7]+=1 [8]+=1 [9]+=1
+
+4. What are you listening to?
+  RnB, Bachata, Soca     //[0]+=0 [1]+=0 [2]+=0 [3]+=0 [4]+=0 [5]+=0 [6]+=2 [7]+=2 [8]+=0 [9]+=0 //YMFDB 2, Never Look Back 2
+  Video game soundtracks, Classical, epic instrumentals //[0]+=2 [1]+=0 [2]+=0 [3]+=0 [4]+=0 [5]+=2 [6]+=0 [7]+=0 [8]+=1 [9]+=0 // Babel 1, LFUS 2, She Who Became the Sun 2
+  Sad girl/boi/enby music //[0]+=1 [1]+=0 [2]+=0 [3]+=2 [4]+=2 [5]+=1 [6]+=1 [7]+=1 [8]+=0 [9]+=0 //1 YMFDB 1, CS 2, NLB 1, SWBS 1, Klara 2, LFUS 1
+  Nature sounds, relaxing instrumentals, lo-fi //[0]+=0 [1]+=2 [2]+=0 [3]+=1 [4]+=0 [5]+=0 [6]+=0 [7]+=0 [8]+=0 [9]+=2 BS 2, SFE 2, Klara 1
+  your favorite study playlist                  //[0]+=0 [1]+=0 [2]+=3 [3]+=0 [4]+=0 [5]+=0 [6]+=0 [7]+=0 [8]+=2 [9]+=1 //Babel 2, Recitatif 3, BS 1
+
+
+
+
+
+
+
