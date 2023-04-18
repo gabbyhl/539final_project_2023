@@ -282,6 +282,19 @@ button:hover{
 }
 .results .display{
     display: block;
+    margin: auto;
+}
+
+.results div{
+    margin: 2% auto 2% auto;
+    text-align: center;
+}
+
+button.restart{
+    display: none;
+}
+button.restart.display{
+    display: block;
 }
 
 @media screen and (min-width:600px) {

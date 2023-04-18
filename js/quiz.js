@@ -136,9 +136,14 @@ $(document).ready(function(){
                 resultid = "#result" + String(result)
                 final = $(resultid)[0]
                 $(final).addClass("display")
+                $("h1").html("Your recommendation:")
                 console.log(final)
                 $(".questions").hide()
+                $(".restart").addClass("display")
                 console.log("quiz closed")
+                // $(".restart").click(function(){
+                //     $(".quizClose").click()
+                // })
                 }
             else{
                 console.log("next_question")
@@ -377,6 +382,8 @@ $(document).ready(function(){
         $(".quizClose").click(function(){
             $(".slide").removeClass('current')
             $(".quizContainer").hide()
+            $(".results").removeClass("display")
+            $("h1").html("Take the quiz to get a book recommendation!")
             console.log("quiz closed")
             $("#quizStart").show()
         });
